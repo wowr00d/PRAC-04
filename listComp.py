@@ -29,5 +29,5 @@ almost_numbers = [int(i) for i in almost_numbers]
 print(almost_numbers)
 
 # TODO: use a list comprehension to create a list of all of the full_names in lowercase
-lowercase_full_names = [str.lower(i) for i in full_names]
+lowercase_full_names = [name.lower() for name in full_names]
 print(lowercase_full_names)

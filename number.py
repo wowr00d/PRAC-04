@@ -1,4 +1,4 @@
-numbersList = [0,1,2,3,4];
+numbersList = []
 
 for i in range(0,5):
     numbersList[i] = int(input("Number: "))
